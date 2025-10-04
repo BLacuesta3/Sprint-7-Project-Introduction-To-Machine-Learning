@@ -57,7 +57,9 @@ Project Methodology:
      Logistic Regression Validation Set Accuracy Score: 0.75
 
    * Logistic Regression Model Confusion Matrix Evaluation
+     
      Logistic Regression Model Confusion Matrix Result:
+     
      [[436   9]
      [150  48]]
      
@@ -83,7 +85,9 @@ weighted avg       0.77      0.75      0.70       643
      Decision Tree Classifier Model Validation Set Accuracy Score: 0.79
      
    * Decision Tree Classifier Model Confusion Matrix Evaluation:
+     
      Decision Tree Classifier Model Confusion Matrix Result:
+   
      [[424  21]
      [110  88]]
      
@@ -108,7 +112,9 @@ weighted avg       0.80      0.80      0.78       643
      Random Forest Classifier Model Validation Set Accuracy Score: 0.80
      
    * Random Forest Classifier Model Confusion Matrix Evaluation
+     
      Random Forest Classifier Model Confusion Matrix Result:
+     
      [[403  42]
       [ 85 113]]
      
@@ -133,6 +139,7 @@ weighted avg       0.80      0.80      0.80       643
    * Decision Tree Classifier Model Validation Set Accuracy Score: 0.79
 
    * Decision Tree Classifier Model Confusion Matrix Result:
+     
      [[424  21]
      [110  88]]
 
