@@ -62,6 +62,7 @@ Project Methodology:
      [150  48]]
      
    * Logistic Regression Model Classification Report:
+     
                    precision    recall  f1-score   support
 
            0       0.74      0.98      0.85       445
@@ -87,6 +88,7 @@ weighted avg       0.77      0.75      0.70       643
      [110  88]]
      
    * Decision Tree Classifer Model Classification Report:
+     
               precision    recall  f1-score   support
 
            0       0.79      0.95      0.87       445
@@ -111,6 +113,7 @@ weighted avg       0.80      0.80      0.78       643
       [ 85 113]]
      
    * Random Forest Classifer Model Classification Report:
+     
               precision    recall  f1-score   support
 
            0       0.83      0.91      0.86       445
@@ -134,6 +137,7 @@ weighted avg       0.80      0.80      0.80       643
      [110  88]]
 
    * Decision Tree Classifer Model Classification Report:
+     
               precision    recall  f1-score   support
 
            0       0.79      0.95      0.87       445
@@ -142,6 +146,3 @@ weighted avg       0.80      0.80      0.80       643
     accuracy                           0.80       643
    macro avg       0.80      0.70      0.72       643
 weighted avg       0.80      0.80      0.78       643
-
-
-Logistic Regression, Decision Tree and Random Forest.
