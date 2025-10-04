@@ -61,6 +61,7 @@ Project Methodology:
      Logistic Regression Model Confusion Matrix Result:
      
      [[436   9]
+     
      [150  48]]
      
    * Logistic Regression Model Classification Report:
@@ -89,6 +90,7 @@ weighted avg       0.77      0.75      0.70       643
      Decision Tree Classifier Model Confusion Matrix Result:
    
      [[424  21]
+     
      [110  88]]
      
    * Decision Tree Classifer Model Classification Report:
@@ -116,6 +118,7 @@ weighted avg       0.80      0.80      0.78       643
      Random Forest Classifier Model Confusion Matrix Result:
      
      [[403  42]
+     
       [ 85 113]]
      
    * Random Forest Classifer Model Classification Report:
@@ -141,6 +144,7 @@ weighted avg       0.80      0.80      0.80       643
    * Decision Tree Classifier Model Confusion Matrix Result:
      
      [[424  21]
+     
      [110  88]]
 
    * Decision Tree Classifer Model Classification Report:
