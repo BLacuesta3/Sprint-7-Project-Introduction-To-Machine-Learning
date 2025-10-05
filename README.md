@@ -31,7 +31,7 @@ Project Libraries And Tools Used:
 
 * sklearn.model_selection (function: GridSearchCV())
 
-Machine Learning Models Included In Project:
+Machine Learning Models Included In The Project:
 
 * Logistic Regression
 
@@ -47,34 +47,44 @@ Project Methodology:
 
 3) Splitting Data Into Training And Validation Sets
 
-4) Logistic Regression Model Predictions/ Model Evaluation:
+4) Logistic Regression Model Predictions/ Model Evaluation
    
-5) Decision Tree Classifier Model Predictions/ Model Evaluation:
+5) Decision Tree Classifier Model Predictions/ Model Evaluation
    
-6) Random Forest Tree Classifier Model Predictions/ Model Evaluation:
+6) Random Forest Tree Classifier Model Predictions/ Model Evaluation
   
 7) Choosing The Best Model Based On Accuracy Score And Confusion Matrix Results Comparison
    
-   Best Model Choice: Decision Tree Classifer Model
+   Best Model Choice: Random Forest Classifer Model
 
-   Decision Tree Classifier Model Results:
+   Random ForestClassifier Model Results:
    
-   * Decision Tree Classifier Model Training Set Accuracy Score: 0.84
-   * Decision Tree Classifier Model Validation Set Accuracy Score: 0.79
-
-   * Decision Tree Classifier Model Confusion Matrix Result:
+   * Random Forest Classifier Model Training Set Accuracy Score: 0.84
+   * Random Forest Classifier Model Validation Set Accuracy Score: 0.79
+     Random Forest Classifier Model Test Set Accuracy Score: 0.85
      
-     [[424,  21]
+   * Random Forest Classifier Model Confusion Matrix Result:
      
-     [110,  88]]
-
-   * Decision Tree Classifer Model Classification Report:
+     [[403,  42]
+     
+     [ 85, 113]]
+     
+   * Random Forest Classifer Model Classification Report:
      
               precision    recall  f1-score   support
 
-           0       0.79      0.95      0.87       445
-           1       0.81      0.44      0.57       198
+           0       0.83      0.91      0.86       445
+           1       0.73      0.57      0.64       198
 
     accuracy                           0.80       643
-   macro avg       0.80      0.70      0.72       643
-weighted avg       0.80      0.80      0.78       643
+   macro avg       0.78      0.74      0.75       643
+weighted avg       0.80      0.80      0.80       643
+
+Final Model Conclusion:
+
+Overall, the Random Forest model appeared to be the best model to solve the task in order to predict whether Megaline users were more likely to choose 
+the Smart or Ultra plans. The Random Forest Classifier model's accuracy scores when working with the training and validation sets were above the project's 0.75 accuracy 
+score threshold. The Random Forest Classifier model also had good values for precision, recall, f1-score, support and accuracy according to the classification report as well. 
+The main determining factor as to why I chose the Random Forest Classifier model as the best model for the task is because the confusion matrix determined that the Random Forest 
+Classifier model only generated 97 errors when making predictions with the validation set, where as the Logistic Regression model generated 159 errors and the Decision Tree model generated 131 errors. Finally, the Random Forest Classifier model's accuracy score when working with the testing set was greater than the 0.75 accuracy score threshold required 
+for this project, thus making the Random Forest Classifier model a good model for predicting whether Megaline users were more likely to choose the Smart or Ultra plans in the future.
